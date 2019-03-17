@@ -138,3 +138,24 @@ int main()
 	cout<<"\n";
 	return 0;
 }
+
+
+
+/* OUTPUT
+
+Check the working of createnode: 
+7	
+Checking Insert_start: 
+8	7	
+Checking Insert_end: 
+8	7	9	
+Checking Insert_Middle: 
+8	3	7	9	
+Delete Middle Node: 
+8	3	9	
+Delete First Node: 
+3	9	
+Delete Last Node: 
+3	
+
+*/
