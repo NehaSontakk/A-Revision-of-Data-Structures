@@ -1,6 +1,6 @@
 # A-Revision-of-Data-Structures
 Revising all the important data structures we went through in my bachelors. 
-Excessively commented in python and c++.
+Excessively commented (tried to comment it tutorial style) in python and c++.
 
 ## 1. Linked List
 Singly Linked list
