@@ -9,3 +9,7 @@ Operations: Creation, Traversal, Deletion, Insertion (Start,End,Middle), Deletio
 ## 2. Stack
 Implemented with singly linked list 
 Operations: push, pop, is empty, display, peek.
+
+## 3. Queue : QueueLL.cpp
+Implemented using Linked List.
+Operations: Enqueue, Dequeue, peek, display, is full.
