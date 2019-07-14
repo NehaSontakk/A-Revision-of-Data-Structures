@@ -1,3 +1,5 @@
 Dynamic Connectivity
-Quick find
+
+Quick find: complextity space = N, time = N.
+
 Union find
