@@ -10,4 +10,4 @@ Find queries and union commands may be intermixed.
 
 Quick find: complextity of: initialization = N, Union = N,find operation = 1
 
-Union find: complexity of: initialization = N, Union = N,find operation = N
+Quick union: complexity of: initialization = N, Union = N,find operation = N
