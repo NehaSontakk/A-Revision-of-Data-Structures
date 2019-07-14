@@ -15,5 +15,8 @@ Quick union: complexity of: initialization = N, Union = N,find operation = N
 weighted quick union : N, log(N), log(N)
 
 Applications of union operations: 
-  Percolation games
-  Dynamic connectivity
+* Percolation games
+  * Games (Go, Hex).
+* Dynamic connectivity
+  * Kruskal's minimum spanning tree algorithm
+  * Least common ancestor.
