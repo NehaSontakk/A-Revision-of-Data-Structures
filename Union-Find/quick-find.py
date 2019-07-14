@@ -1,11 +1,11 @@
-class unionfind:
+class quickfind:
   #  int count
     def __init__(self,N):
         self.N = N
         self.count = N
         self.idx = []
 
-    def uf(self):
+    def qf(self):
         for i in range(0,self.N):
             self.idx.append(i)
         print self.idx
@@ -31,16 +31,27 @@ class unionfind:
         print pid,qid
 
 if __name__ == "__main__":
-    uf = unionfind(5)
-    uf.uf()
-    uf.countz()
-    uf.union(1,2)
-    uf.connected(1,2)
-    uf.union(3,2)
-    uf.connected(3,2)
-    uf.union(0,1)
-    print uf.connected(0,1)
-    print uf.connected(4,1)
-    print uf.quick_find(3)
-    print "These union operations form ",uf.count," seperate components."
+    qf = quickfind(5)
+    qf.qf()
+    qf.countz()
+    qf.union(1,2)
+    qf.connected(1,2)
+    qf.union(3,2)
+    qf.connected(3,2)
+    qf.union(0,1)
+    print qf.connected(0,1)
+    print qf.connected(4,1)
+    print qf.quick_find(3)
+    print "These union operations form ",qf.count," seperate components."
 
+#OUTPUT:
+# [0, 1, 2, 3, 4]
+#5
+#1 2
+#3 2
+#0 2
+#True
+#False
+#2
+#These union operations form  2  seperate components.
+#[Finished in 0.0s]
