@@ -8,6 +8,6 @@ Number of operations M can be huge.
 
 Find queries and union commands may be intermixed.
 
-Quick find: complextity of find operation = 1
+Quick find: complextity of: initialization = N, Union = N,find operation = 1
 
-Union find: complexity of find operation = N
+Union find: complexity of: initialization = N, Union = N,find operation = N
