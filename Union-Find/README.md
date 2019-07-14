@@ -11,3 +11,5 @@ Find queries and union commands may be intermixed.
 Quick find: complextity of: initialization = N, Union = N,find operation = 1
 
 Quick union: complexity of: initialization = N, Union = N,find operation = N
+
+weighted quick union : N, log(N), log(N)
