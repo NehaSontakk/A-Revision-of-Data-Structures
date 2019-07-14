@@ -1,4 +1,4 @@
-class unionfind:
+class quickunion:
     def __init__(self,N):
         self.N = N
         self.idx = []
@@ -21,11 +21,12 @@ class unionfind:
         self.idx[pid] = qid
 
 if __name__ == '__main__':
-    uf = unionfind(10)
-    print uf.root(2)
-    uf.union(1,2)
-    print uf.connected(1,2)
-    print uf.connected(3,4)
+    qu = quickunion(10)
+    print qu.root(2)
+    qu.union(1,2)
+    print qu.connected(1,2)
+    print qu.connected(3,4)
+
 
     #OUTPUT
 
