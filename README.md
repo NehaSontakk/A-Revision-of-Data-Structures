@@ -1,6 +1,7 @@
-# A-Revision-of-Data-Structures
-Revising all the important data structures we went through in my bachelors. 
-Excessively commented (tried to comment it tutorial style) in python and c++.
+# A-Revision-of-Data-Structures : C++ and Python
+[Algorithms Part 1 - Princeton University ](https://www.coursera.org/learn/algorithms-part1/) taught by  Kevin Wayne, Robert Sedgewick.
+
+" This course covers the essential information that every serious programmer needs to know about algorithms and data structures, with emphasis on applications and scientific performance analysis. Part I covers elementary data structures, sorting, and searching algorithms. Part II focuses on graph- and string-processing algorithms. "
 
 ## 1. Linked List
 Singly Linked list
